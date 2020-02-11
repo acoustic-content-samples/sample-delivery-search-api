@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables';
+
+.indexedFieldControl {
+  width: $indexed-field-control-width;
+  min-width: $indexed-field-control-width;
+}
+
+.indexedFieldLabel {
+  width: $indexed-field-label-width;
+  min-width: $indexed-field-label-width;
+}
+
+.indexedFieldClearButton,
+.indexedFieldSpinner {
+  margin-top: 9px;
+}

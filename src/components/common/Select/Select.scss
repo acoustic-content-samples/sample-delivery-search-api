@@ -1,0 +1,13 @@
+@import '../../../assets/styles/variables';
+
+.MuiFormControl-root {
+  width: 100%;
+
+  .MuiInputBase-root {
+    height: $control-height;
+  }
+
+  .MuiSelect-select:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}

@@ -1,0 +1,20 @@
+@import '../../../assets/styles/variables';
+
+.searchFieldLabel {
+  box-sizing: border-box;
+  width: $indexed-field-label-width;
+  min-width: $indexed-field-label-width;
+  height: $control-height;
+  border-radius: 5px;
+  border: solid 1px #ccd5d9;
+  background-color: #fbfcfc;
+  display: flex;
+  align-items: center;
+
+  & > span {
+    margin-left: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

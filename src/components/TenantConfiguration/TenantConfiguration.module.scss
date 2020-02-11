@@ -1,0 +1,15 @@
+@import '../../assets/styles/variables';
+
+.tenantUrlInput {
+ min-width: 740px;
+}
+
+.error {
+ min-width: 740px;
+
+  & > p {
+    margin: 0;
+    font-size: 12px;
+    color: red;
+  }
+}

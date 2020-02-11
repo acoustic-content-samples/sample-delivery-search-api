@@ -1,0 +1,61 @@
+@import '../../assets/styles/variables';
+
+.formContainer {
+  margin: 10px 32px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  width: $label-width;
+  min-width: $label-width;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: $label-font-size;
+}
+
+.formInBetweenLabel {
+  font-size: $label-font-size;
+}
+
+.formGroup {
+  margin: $control-margin 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  & > * {
+    margin-right: $control-margin;
+  }
+
+  .MuiInputBase-root {
+    height: $control-height;
+  }
+}
+
+.indexedField {
+  margin: $control-margin 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: top;
+
+  & > * {
+    margin: 0 $control-margin;
+  }
+
+  .formLabel {
+    margin: 0;
+  }
+}
+
+.formWideControl {
+  display: inline-block;
+  width: $wide-control-width;
+  min-width: $wide-control-width;
+}
+
+.formNarrowControl {
+  display: inline-block;
+  width: $narrow-control-width;
+  min-width: $narrow-control-width;
+}
