@@ -54,7 +54,7 @@ export default function TenantConfiguration() {
           id="tenant-url"
           error={urlError}
           fullWidth={true}
-          placeholder="https://myXX.digitalexperience.ibm.com/api/00000000-0000-0000-0000-00000000fcb"
+          placeholder="https://content-xx-x.content-cms.com/api/00000000-0000-0000-0000-00000000fcb"
           onBlur={onInputBlur}
         />
       </div>
