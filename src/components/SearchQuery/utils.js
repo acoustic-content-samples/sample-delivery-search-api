@@ -243,7 +243,7 @@ export const buildLink = (queryData, context) => {
     return;
   }
 
-  let result = queryData.tenantUrl || 'https://myXX.digitalexperience.ibm.com/api/00000000-0000-0000-0000-00000000fcb';
+  let result = queryData.tenantUrl || 'https://content-xx-x.content-cms.com/api/00000000-0000-0000-0000-00000000fcb';
   result += '/delivery/v1/search?q=*:*&fq=classification:';
   result += queryData.classification.toLowerCase();
   const { searchFields = [], returnFields = [] } = queryData;
